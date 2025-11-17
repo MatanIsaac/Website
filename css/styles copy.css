@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #44444E;
+    text-align: center;
+}
+
+header {
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    background-color: rgba(55, 53, 62, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #D3DAD9;
+    letter-spacing: 1px;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+.nav-links li a {
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #D3DAD9;
+    transition: 0.3s ;
+}
+
+.nav-links li a:hover {
+    color: #4f6191;
+}
+
+h1 {
+    color: #D3DAD9;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #D3DAD9;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #D3DAD9;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 10rem;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.projects li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-img {
+    width: 600px;
+    height: 400px;
+}
+
+.me-img {
+    width: 20%; /* Image will scale to 15% of its parent's width */
+    max-width: 600px; /* Image will not exceed 600px in width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 30%;
+    border: 3px solid rgba(211, 218, 217, 0.2);
+    border-style: outset;
+}
+
+.base-text {
+    font-size: 1.2rem;
+    color: #D3DAD9;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
